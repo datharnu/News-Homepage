@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif; 
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display:block;
+}
+.menu-info{
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    width: 70%;
+}
